@@ -18,3 +18,12 @@ print(age)
 # All variables same value
 val1 = val2 = val3 = 44
 print(val3)
+
+
+a = 2+3
+b = ["Hello", "Rushikesh"];
+print(b)
+print(b[1])
+
+c={"name":"Rushikesh", "profession": "developer"};
+print(c["name"] + " does " + c["profession"] + " job.");
