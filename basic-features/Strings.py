@@ -14,4 +14,19 @@ print(sentence[0:10])
 print(sentence[:5])
 print(sentence[:-6])
 
+# String Placeholder syntax
+name = "Rushikesh"
+print(name + " is 40 years old")
 
+line = "%s is 40 years old"
+print(line%name)
+print(line%("Ram"))
+
+# Multiple placeholders
+sentence1 = "%s %s is innovative developer"
+print(sentence1%(name, lastName))
+print(sentence1%("Ram", "Krishna"))
+
+# Mixed placeholders
+sentence2 = "%s is %d years old"
+print(sentence2%(name, 40))
